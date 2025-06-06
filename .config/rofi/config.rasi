@@ -1,0 +1,9 @@
+configuration {
+  display-drun: "Applications:";
+  drun-display-format: "{icon} {name}";
+  font: "PRNumber3 14";
+  modi: "drun";
+  show-icons: true;
+}
+
+@theme "themes/green-apple.rasi"

@@ -1,0 +1,70 @@
+* {
+  bg: #000000dd;
+
+  fg: #0da51f;
+ 
+  background-color: transparent;
+  text-color: @fg;
+
+  margin: 0;
+  padding: 0;
+  spacing: 0;
+}
+
+window {
+  location: north;
+  y-offset: calc(50% - 176px);
+  width: 45%;
+  background-color: @bg;
+  border-color: @fg;
+  border: 2px;
+  border-radius: 10px;
+}
+
+mainbox {
+  padding: 12px;
+}
+
+inputbar {
+  background-color: @bg;
+  border-color: @fg;
+
+  border: 2px;
+  border-radius: 6px;
+
+  padding: 8px 16px;
+  spacing: 8px;
+  children: [ prompt, entry ];
+}
+
+message {
+  margin:             12px 0 0;
+  border-color:       @fg;
+  background-color:   @bg;
+}
+
+textbox {
+  padding:    8px 24px;
+}
+
+listview {
+  background-color:   transparent;
+
+  margin:     12px 0 0;
+  lines:      8;
+  columns:    1;
+
+  fixed-height: false;
+}
+
+element {
+  padding:        8px 16px;
+  spacing:        8px;
+  text-color: @fg;
+}
+
+element selected {
+  border-color: @fg;
+  border: 2px;
+  border-radius: 4px;
+}
