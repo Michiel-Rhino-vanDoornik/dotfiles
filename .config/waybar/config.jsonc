@@ -102,7 +102,7 @@
 
 	"custom/power":{
         "format": "⏻ ",
-        "on-click": "control",
+        "on-click": "wlogout",
         "tooltip": false
     },
 
