@@ -19,11 +19,12 @@
 
     "modules-right": [
         "tray",
-		"hyprland/language",
+		    "hyprland/language",
         "cpu",
         "memory",
         "network",
-        "pulseaudio"
+        "pulseaudio",
+        "custom/power"
 		],
 
     "custom/launcher":{
@@ -91,7 +92,7 @@
         "format": "vol {volume}%",
         "format-bluetooth": "vol {volume}%",
         "nospacing": 1,
-        "on-click": "pwvucontrol",
+        "on-click": "pavucontrol",
         "tooltip": false
     },
 
@@ -99,10 +100,9 @@
 		"format": "{short}",
 	},
 
-	"custom/control":{
-        "format": " ",
+	"custom/power":{
+        "format": "⏻ ",
         "on-click": "control",
-        "on-click-right": "killall control",
         "tooltip": false
     },
 
