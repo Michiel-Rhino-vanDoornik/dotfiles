@@ -16,6 +16,11 @@ DEFAULT_USER="flamingo"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
+# Run Fastfetch
+if [[ -o interactive ]]; then
+    fastfetch
+fi
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
