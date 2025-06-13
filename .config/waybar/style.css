@@ -127,3 +127,9 @@ tooltip label {
 #language {
 	min-width: 20px;
 }
+
+#tray menu {
+    background-color: #000000;
+    border: 2px solid #0da51f;
+	  color: #0da51f; 
+}
